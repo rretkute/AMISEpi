@@ -25,6 +25,6 @@ plot_AMIS_Ascaris(coord, ans)
 ``` 
 
 #### Outcome
-Figure. Results  for  Ascaris  lumbricoides  in  Ethiopia.  
+Results  for  Ascaris  lumbricoides  in  Ethiopia.  
 
 ![](pkg_img.png)

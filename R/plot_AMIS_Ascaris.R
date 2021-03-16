@@ -23,7 +23,7 @@ plot_AMIS_Ascaris<-function(coord, ans){
   hm1 <- hm1 + theme_bw() + theme(legend.position="bottom")  + coord_fixed(ratio = 1)
   f1<-hm1 + ggtitle("(a)")
   par<-ans$param
-  par<-par[1:2,]
+  par<-par[c(1,2,ncol(par)),]
   n.iter<-nrow(par)/1000-1
   colnames(par)<-c("logW","k","Prevalence")
   par<-as.data.frame(par)

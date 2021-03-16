@@ -1,0 +1,11 @@
+Package: AMISEpi
+Version: 0.1
+Date: 2021-03-12
+Title: AMIS for Infectious Diseases
+Description: Integrating geostatistical maps and infectious disease transmission models using adaptive multiple importance sampling.
+Author: Renata Retkute <r.retkute@yahoo.com>
+Maintainer: Renata Retkute <r.retkute@yahoo.com>
+License: MIT + file LICENSE
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10)

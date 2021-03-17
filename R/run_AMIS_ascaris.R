@@ -19,6 +19,7 @@
 #'
 
 run_AMIS_ascaris<-function(prev, n.param, NN, delta, ESS.R){
+  start_time <- Sys.time()
   TT<-length(NN)# Max number of iterations
   n.pixels<-nrow(prev) # Number of pixels
 
@@ -129,5 +130,7 @@ run_AMIS_ascaris<-function(prev, n.param, NN, delta, ESS.R){
     if(min(ess)>=ESS.R) stop<-1
     if(it>= TT) stop<-1
   }
-  return(list(param=param, WW=WW, ESS=ess))
+  end_time <- Sys.time()
+  total_time<-difftime(end_time, start_time, units ="hours")
+  return(list(param=param, WW=WW, ESS=ess, total_time=total_time))
 }

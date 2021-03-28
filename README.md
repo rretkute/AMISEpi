@@ -10,7 +10,7 @@ library(devtools)
 install_github("rretkute/AMISEpi")
 ``` 
 
-#### Example use
+#### Example use: Ascariasis in Ethiopia
 
 ```r
 library(AMISEpi)

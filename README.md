@@ -24,7 +24,6 @@ ans<-run_AMIS_ascaris(prev=prev, n.param=2, NN=rep(1000, 100), delta=5, ESS.R=20
 plot_AMIS_Ascaris(coord, ans)
 ``` 
 
-##### Outcome
 Results  for  Ascaris  lumbricoides  in  Ethiopia.  
 
 ![](pkg_img.png)

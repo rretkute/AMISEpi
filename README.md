@@ -7,7 +7,7 @@ This package contains the code and data to reproduce analysis in Retkute et al. 
 ```r
 library(devtools)
 
-install_github("rretkute/AMISEpi")
+install_github("rretkute/AMISEpi@main")
 ``` 
 
 #### Example use: Ascariasis in Ethiopia

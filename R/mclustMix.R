@@ -10,7 +10,11 @@
 mclustMix<-function(G=1:10){
   if (any(as.numeric(G)<=0)) stop("G must be positive")
   function(xx){
-    clustering <- fitMclust(xx,modelName="VVV",G= G)
+	  if(is.matrix(xx)){
+		    clustering <- fitMclust(xx,modelName="VVV",G= G)
+	  } else {
+	      clustering <- fitMclust1D(xx,modelName="V",G= G)
+	  }
     G <- clustering$G
     if(G==1) clustering$parameters$pro <- 1
     return(list(alpha=clustering$parameters$pro, muHat=t(clustering$parameters$mean), SigmaHat=clustering$parameters$variance$sigma,G=G,cluster=clustering$classification))

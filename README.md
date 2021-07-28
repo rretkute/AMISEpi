@@ -7,6 +7,14 @@ This package contains the code and data to reproduce analysis in Retkute et al. 
 ```r
 library(devtools)
 
+install.packages("gridExtra")
+
+install.packages("mclust")
+
+install.packages("mnormt")
+
+install.packages("plyr")
+
 install_github("rretkute/AMISEpi@main")
 ``` 
 

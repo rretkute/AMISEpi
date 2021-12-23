@@ -1,6 +1,8 @@
 # AMISEpi
  
-This package contains the code and data to reproduce analysis in Retkute et al. "Integrating geostatistical maps and infectious disease transmission models using adaptive multiple importance sampling" https://www.medrxiv.org/content/10.1101/2020.08.03.20146241v1.
+This package is associated with the following manuscript:
+
+ Renata Retkute. Panayiota Touloupou. María-Gloria Basáñez. T. Déirdre Hollingsworth. Simon E. F. Spencer. "Integrating geostatistical maps and infectious disease transmission models using adaptive multiple importance sampling." Ann. Appl. Stat. 15 (4) 1980 - 1998, December 2021. https://doi.org/10.1214/21-AOAS1486 
 
 #### Installation
 

@@ -2,7 +2,7 @@
  
 This package is associated with the following manuscript:
 
- Renata Retkute. Panayiota Touloupou. María-Gloria Basáñez. T. Déirdre Hollingsworth. Simon E. F. Spencer. "Integrating geostatistical maps and infectious disease transmission models using adaptive multiple importance sampling." Ann. Appl. Stat. 15 (4) 1980 - 1998, December 2021. https://doi.org/10.1214/21-AOAS1486 
+ Renata Retkute, Panayiota Touloupou, María-Gloria Basáñez, T. Déirdre Hollingsworth, and Simon E. F. Spencer. "Integrating geostatistical maps and infectious disease transmission models using adaptive multiple importance sampling." Ann. Appl. Stat. 15 (4) 1980 - 1998, December 2021. https://doi.org/10.1214/21-AOAS1486 
 
 #### Installation
 
